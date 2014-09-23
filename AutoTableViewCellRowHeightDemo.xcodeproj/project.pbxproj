@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BB8316F19D0B105002E4110 /* MagicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8316E19D0B105002E4110 /* MagicTableViewController.m */; };
+		9BB8317219D0E366002E4110 /* Bookmark.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8317119D0E366002E4110 /* Bookmark.m */; };
+		9BF96B1B19D096FF003E5CBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF96B1A19D096FF003E5CBC /* AppDelegate.swift */; };
+		9BF96B2019D096FF003E5CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF96B1E19D096FF003E5CBC /* Main.storyboard */; };
+		9BF96B2219D096FF003E5CBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF96B2119D096FF003E5CBC /* Images.xcassets */; };
+		9BF96B2519D096FF003E5CBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BF96B2319D096FF003E5CBC /* LaunchScreen.xib */; };
+		9BF96B4319D0AE6E003E5CBC /* MagicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF96B4219D0AE6E003E5CBC /* MagicTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9BB8316D19D0B105002E4110 /* MagicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MagicTableViewController.h; path = ../MagicTableViewController.h; sourceTree = "<group>"; };
+		9BB8316E19D0B105002E4110 /* MagicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MagicTableViewController.m; path = ../MagicTableViewController.m; sourceTree = "<group>"; };
+		9BB8317019D0E366002E4110 /* Bookmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bookmark.h; sourceTree = "<group>"; };
+		9BB8317119D0E366002E4110 /* Bookmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bookmark.m; sourceTree = "<group>"; };
+		9BF96B1519D096FF003E5CBC /* AutoTableViewCellRowHeightDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoTableViewCellRowHeightDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF96B1919D096FF003E5CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF96B1A19D096FF003E5CBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BF96B1F19D096FF003E5CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BF96B2119D096FF003E5CBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9BF96B2419D096FF003E5CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9BF96B4019D0AE6E003E5CBC /* AutoTableViewCellRowHeightDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoTableViewCellRowHeightDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		9BF96B4119D0AE6E003E5CBC /* MagicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicTableViewCell.h; sourceTree = "<group>"; };
+		9BF96B4219D0AE6E003E5CBC /* MagicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BF96B1219D096FF003E5CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BF96B0C19D096FF003E5CBC = {
+			isa = PBXGroup;
+			children = (
+				9BF96B1719D096FF003E5CBC /* AutoTableViewCellRowHeightDemo */,
+				9BF96B1619D096FF003E5CBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BF96B1619D096FF003E5CBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BF96B1519D096FF003E5CBC /* AutoTableViewCellRowHeightDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BF96B1719D096FF003E5CBC /* AutoTableViewCellRowHeightDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9BF96B1A19D096FF003E5CBC /* AppDelegate.swift */,
+				9BB8317019D0E366002E4110 /* Bookmark.h */,
+				9BB8317119D0E366002E4110 /* Bookmark.m */,
+				9BB8316D19D0B105002E4110 /* MagicTableViewController.h */,
+				9BB8316E19D0B105002E4110 /* MagicTableViewController.m */,
+				9BF96B4119D0AE6E003E5CBC /* MagicTableViewCell.h */,
+				9BF96B4219D0AE6E003E5CBC /* MagicTableViewCell.m */,
+				9BF96B1E19D096FF003E5CBC /* Main.storyboard */,
+				9BF96B2119D096FF003E5CBC /* Images.xcassets */,
+				9BF96B2319D096FF003E5CBC /* LaunchScreen.xib */,
+				9BF96B1819D096FF003E5CBC /* Supporting Files */,
+				9BF96B4019D0AE6E003E5CBC /* AutoTableViewCellRowHeightDemo-Bridging-Header.h */,
+			);
+			path = AutoTableViewCellRowHeightDemo;
+			sourceTree = "<group>";
+		};
+		9BF96B1819D096FF003E5CBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BF96B1919D096FF003E5CBC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BF96B1419D096FF003E5CBC /* AutoTableViewCellRowHeightDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF96B3419D096FF003E5CBC /* Build configuration list for PBXNativeTarget "AutoTableViewCellRowHeightDemo" */;
+			buildPhases = (
+				9BF96B1119D096FF003E5CBC /* Sources */,
+				9BF96B1219D096FF003E5CBC /* Frameworks */,
+				9BF96B1319D096FF003E5CBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoTableViewCellRowHeightDemo;
+			productName = AutoTableViewCellRowHeightDemo;
+			productReference = 9BF96B1519D096FF003E5CBC /* AutoTableViewCellRowHeightDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BF96B0D19D096FF003E5CBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Lapdog;
+				TargetAttributes = {
+					9BF96B1419D096FF003E5CBC = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 9BF96B1019D096FF003E5CBC /* Build configuration list for PBXProject "AutoTableViewCellRowHeightDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BF96B0C19D096FF003E5CBC;
+			productRefGroup = 9BF96B1619D096FF003E5CBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BF96B1419D096FF003E5CBC /* AutoTableViewCellRowHeightDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BF96B1319D096FF003E5CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF96B2019D096FF003E5CBC /* Main.storyboard in Resources */,
+				9BF96B2519D096FF003E5CBC /* LaunchScreen.xib in Resources */,
+				9BF96B2219D096FF003E5CBC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BF96B1119D096FF003E5CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB8316F19D0B105002E4110 /* MagicTableViewController.m in Sources */,
+				9BF96B1B19D096FF003E5CBC /* AppDelegate.swift in Sources */,
+				9BF96B4319D0AE6E003E5CBC /* MagicTableViewCell.m in Sources */,
+				9BB8317219D0E366002E4110 /* Bookmark.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BF96B1E19D096FF003E5CBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BF96B1F19D096FF003E5CBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BF96B2319D096FF003E5CBC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BF96B2419D096FF003E5CBC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BF96B3219D096FF003E5CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BF96B3319D096FF003E5CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BF96B3519D096FF003E5CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = AutoTableViewCellRowHeightDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AutoTableViewCellRowHeightDemo/AutoTableViewCellRowHeightDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BF96B3619D096FF003E5CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = AutoTableViewCellRowHeightDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AutoTableViewCellRowHeightDemo/AutoTableViewCellRowHeightDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BF96B1019D096FF003E5CBC /* Build configuration list for PBXProject "AutoTableViewCellRowHeightDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF96B3219D096FF003E5CBC /* Debug */,
+				9BF96B3319D096FF003E5CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF96B3419D096FF003E5CBC /* Build configuration list for PBXNativeTarget "AutoTableViewCellRowHeightDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF96B3519D096FF003E5CBC /* Debug */,
+				9BF96B3619D096FF003E5CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BF96B0D19D096FF003E5CBC /* Project object */;
+}

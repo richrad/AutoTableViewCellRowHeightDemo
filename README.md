@@ -1,0 +1,1 @@
+Sample code showing how to create an automatically resizing UITableViewCell in iOS8.
