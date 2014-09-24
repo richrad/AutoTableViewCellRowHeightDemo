@@ -32,7 +32,7 @@
     
     NSString *lessTags = @"dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs";
     
-    _data = @[[[Bookmark alloc] initWithTitle:aReallyLongString  url:urlString tags:manyTags], [[Bookmark alloc] initWithTitle:aShorterString  url:urlString tags:lessTags]];
+    _data = @[[[Bookmark alloc] initWithTitle:aReallyLongString  url:urlString tags:manyTags], [[Bookmark alloc] initWithTitle:aShorterString  url:urlString tags:lessTags], [[Bookmark alloc] initWithTitle:aReallyLongString  url:urlString tags:manyTags], [[Bookmark alloc] initWithTitle:aShorterString  url:urlString tags:lessTags], [[Bookmark alloc] initWithTitle:aReallyLongString  url:urlString tags:manyTags], [[Bookmark alloc] initWithTitle:aShorterString  url:urlString tags:lessTags]];
 }
 
 #pragma mark - Table view data source
@@ -52,8 +52,19 @@
     MagicTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     Bookmark *bookmark = _data[indexPath.row];
     [cell populateWithBookmark:bookmark];
-    
+
     return cell;
+}
+
+#pragma mark -- A Not-Great Fix for UILabels Not Resizing When Rotated
+
+-(void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator
+{
+    [coordinator animateAlongsideTransition:^(id<UIViewControllerTransitionCoordinatorContext> context) {
+        [self.tableView reloadRowsAtIndexPaths:self.tableView.indexPathsForVisibleRows withRowAnimation:UITableViewRowAnimationNone];
+    } completion:^(id<UIViewControllerTransitionCoordinatorContext> context) {
+        
+    }];
 }
 
 @end
