@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9B17CB1B19D277F200B98572 /* MagicSwiftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B17CB1A19D277F200B98572 /* MagicSwiftTableViewCell.swift */; };
-		9BB8316F19D0B105002E4110 /* MagicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8316E19D0B105002E4110 /* MagicTableViewController.m */; };
 		9BB8317219D0E366002E4110 /* Bookmark.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8317119D0E366002E4110 /* Bookmark.m */; };
+		9BE33F8F19D35A6800BEF4CA /* MagicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE33F8E19D35A6800BEF4CA /* MagicTableViewController.m */; };
 		9BF091CD19D3003500824933 /* BookmarkSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF091CC19D3003500824933 /* BookmarkSwift.swift */; };
 		9BF091CF19D3025F00824933 /* MagicSwiftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF091CE19D3025F00824933 /* MagicSwiftTableViewController.swift */; };
 		9BF96B1B19D096FF003E5CBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF96B1A19D096FF003E5CBC /* AppDelegate.swift */; };
@@ -21,10 +21,10 @@
 
 /* Begin PBXFileReference section */
 		9B17CB1A19D277F200B98572 /* MagicSwiftTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicSwiftTableViewCell.swift; sourceTree = "<group>"; };
-		9BB8316D19D0B105002E4110 /* MagicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MagicTableViewController.h; path = ../MagicTableViewController.h; sourceTree = "<group>"; };
-		9BB8316E19D0B105002E4110 /* MagicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MagicTableViewController.m; path = ../MagicTableViewController.m; sourceTree = "<group>"; };
 		9BB8317019D0E366002E4110 /* Bookmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bookmark.h; sourceTree = "<group>"; };
 		9BB8317119D0E366002E4110 /* Bookmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bookmark.m; sourceTree = "<group>"; };
+		9BE33F8D19D35A6800BEF4CA /* MagicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicTableViewController.h; sourceTree = "<group>"; };
+		9BE33F8E19D35A6800BEF4CA /* MagicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicTableViewController.m; sourceTree = "<group>"; };
 		9BF091CC19D3003500824933 /* BookmarkSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkSwift.swift; sourceTree = "<group>"; };
 		9BF091CE19D3025F00824933 /* MagicSwiftTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicSwiftTableViewController.swift; sourceTree = "<group>"; };
 		9BF96B1519D096FF003E5CBC /* AutoTableViewCellRowHeightDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoTableViewCellRowHeightDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,8 +56,8 @@
 				9BB8317119D0E366002E4110 /* Bookmark.m */,
 				9BF96B4119D0AE6E003E5CBC /* MagicTableViewCell.h */,
 				9BF96B4219D0AE6E003E5CBC /* MagicTableViewCell.m */,
-				9BB8316D19D0B105002E4110 /* MagicTableViewController.h */,
-				9BB8316E19D0B105002E4110 /* MagicTableViewController.m */,
+				9BE33F8D19D35A6800BEF4CA /* MagicTableViewController.h */,
+				9BE33F8E19D35A6800BEF4CA /* MagicTableViewController.m */,
 			);
 			name = "Objective-C";
 			sourceTree = "<group>";
@@ -181,11 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BB8316F19D0B105002E4110 /* MagicTableViewController.m in Sources */,
 				9BF96B1B19D096FF003E5CBC /* AppDelegate.swift in Sources */,
 				9BF96B4319D0AE6E003E5CBC /* MagicTableViewCell.m in Sources */,
 				9BB8317219D0E366002E4110 /* Bookmark.m in Sources */,
 				9B17CB1B19D277F200B98572 /* MagicSwiftTableViewCell.swift in Sources */,
+				9BE33F8F19D35A6800BEF4CA /* MagicTableViewController.m in Sources */,
 				9BF091CF19D3025F00824933 /* MagicSwiftTableViewController.swift in Sources */,
 				9BF091CD19D3003500824933 /* BookmarkSwift.swift in Sources */,
 			);
